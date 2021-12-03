@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="logo.png"
+      type="image/x-icon"
+      alt="Logo feito por logomakr.com"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>calculadora</title>
+  </head>
+
+  <body>
+    <!---->
+    <form action="" name="calc" id="calculadora">
+      <div>
+          <input type="text" id="visor" name="visor" class="visor" />
+        <section class="buttons">
+      
+        <div class='linha'>
+          <input
+            type="button"
+            value="7"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="8"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="9"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="/"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+        </div>
+        <div class='linha'>
+          <input
+            type="button"
+            value="4"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="5"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="6"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="*"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+        </div>
+        <div class='linha'>
+          <input
+            type="button"
+            value="1"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="2"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="3"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input
+            type="button"
+            value="-"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+        </div>
+        <div class='linha'>
+          <input type="button" value="C" class="btn" onclick="reseta()" />
+          <input
+            type="button"
+            value="0"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          <input type="button" value="=" class="btn" onclick="calcula()" />
+          <input
+            type="button"
+            value="+"
+            class="btn btn-sucess"
+            onclick="botao(value)"
+          />
+          </section>
+        </div>
+      </div>
+    </form>
+    <script src="./JAVASCRIPT/script.js"></script>
+  </body>
+</html>

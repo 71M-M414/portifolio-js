@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PSI - atividade</title>
+  </head>
+  <body>
+    <header>
+      <h1>Programação de sitios para internet</h1>
+    </header>
+    <section>
+      <div class="Ano-nascimento inputs-dados">
+        <label for="AnoNascimento">ano de nascimento</label>
+        <input type="number" name="Nascimento" id="AnoNascimento" min="1900" />
+      </div>
+      <div class="sexo inputs-dados">
+        <label for="Sexo">Informe seu sexo</label>
+        <select name="sexo" id="Sexo">
+          <option value="NaoInformado">Prefiro não informar</option>
+          <option value="Masculino">Masculino</option>
+          <option value="Feminino">Feminino</option>
+        </select>
+      </div>
+      <input
+        type="button"
+        value="Pronto"
+        onclick="Validar()"
+        class="button"
+        id="btn"
+      />
+      <section id="VisualizarPessoa">
+        <div class="pessoa-img"></div>
+      </section>
+    </section>
+
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>

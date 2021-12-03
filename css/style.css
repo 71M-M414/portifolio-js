@@ -1,0 +1,46 @@
+* {padding:0;margin:0;box-sizing:border-box}
+body {font-family: 'Oswald', sans-serif;background-color: rgb(53, 52, 52);overflow: hidden;}
+header {background-color: #F7DF1E;width: 100%;height: 188px;}
+h1 {width: 360px; margin: 0 auto;position: relative;top: -110px;}
+h2 {width: 100px;margin-top: 5%; margin-bottom: 3%; margin: 5% 0% 3% 5%;color:white}
+h2::after{content: '';display: block;width: 100px;height:2px;background-color: white;}
+p {font-size: 22px;}
+a{text-decoration:none; color:white}
+div{text-align: center;}
+.projetos-curso{display: flex;align-items: center;justify-content: center;}
+.card{position:relative;bottom: -350px;background-color: white;width:410px;height: 300px;padding: 5px; cursor: pointer;transition: all 1s ease-in-out; margin: 4px; border-radius: 5px;}
+.card:hover{background-color: #F7DF1E;}
+button{margin-top: 10px;width: 100px;height: 30px; background-color: black;border: none;padding: 1%;}
+
+.primeiro{
+    animation-name: Primeiro;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.segundo{
+    animation-name: Primeiro;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.terceiro{
+    animation-name: Primeiro;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+     animation-fill-mode: forwards;
+}
+
+
+/**ANIMAÇÕES**/
+
+@keyframes Primeiro {
+    from{bottom: -350px;}
+    to{bottom: 0;}
+}
+

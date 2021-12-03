@@ -1,0 +1,113 @@
+html {
+  cursor: url(../img/estaca.png), default;
+}
+
+img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+
+body {
+  background-image: url(../img/bg-3.jpg);
+  background-size: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+
+.VidaTempo{
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+ ;
+  
+
+}
+
+.VidaTempo , #Pontuacao{
+ background-color: rgba(255, 0, 0, 0.39);
+ text-align: center;
+ border-radius: 10px;
+}
+ 
+.VidaTempo section {
+ height: 30px; 
+}
+
+button{
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  text-align:center;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  margin: 10px;
+  animation-duration: 1s;
+   animation-iteration-count: infinite;
+  animation-name: Button;
+}
+section{
+  width: 160px;
+  height: 100px;
+  
+}
+
+h2{
+  color: white;
+}
+
+.info {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  text-align:center;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  animation-duration: 1s;
+   animation-iteration-count: infinite;
+  animation-name: Button;
+}
+
+.Iniciar{
+  margin: 0 auto;
+  
+  background-color: slategrey;
+  padding: 5px;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.none{
+  display: none;
+}
+@keyframes Button  {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+   transform: scale(1.1);
+  }
+  0%{
+    transform: scale(1);
+  }
+}
